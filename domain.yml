@@ -1,0 +1,112 @@
+actions:
+- utter_ac_desc
+- utter_answer_direct_website
+- utter_answer_service
+- utter_asking_service_specific
+- utter_cheer_up
+- utter_choose
+- utter_choose_one_service
+- utter_description
+- utter_did_that_help
+- utter_goodbye
+- utter_greet
+- utter_happy
+- utter_iamabot
+- utter_ls_desc
+- utter_pricing_desc
+- utter_random_features
+- utter_ss_desc
+- utter_unclear
+- utter_vc_desc
+- utter_wb_desc
+- utter_welcome
+entities:
+- undefined
+intents:
+- ac_question
+- greet
+- goodbye
+- asking_general_service
+- affirm
+- deny
+- mood_great
+- mood_unhappy
+- bot_challenge
+- general_question
+- um_question
+- feature_question
+- vc_question
+- ss_question
+- ls_question
+- wb_question
+- pricing_question
+- list_feature_question
+- utter_welcome
+- utter_asking_several_features
+- asking_get_service
+- mood_happy
+responses:
+  utter_ac_desc:
+  - text: With the available nuSDK voice call, we can provide high-quality voice interaction
+      with low bandwidth and low latency to provide the best experience for you
+  utter_answer_direct_website:
+  - text: You can visit our website [nuSDK Webpage] (http://192.168.0.31)
+  utter_answer_service:
+  - text: Yes, I can help you with that, nuSDK API can provide your communication
+      service needs.
+  - text: Yes, I can help you, nuSDK provide the communication-based service that
+      will enhance your application communication experience.
+  utter_asking_service_specific:
+  - text: What communication service that you need?
+  - text: What service do you need?
+  - text: We have numerous service that will help you with that, what specific service
+      that you need?
+  utter_cheer_up:
+  - image: https://i.imgur.com/nGF1K8f.jpg
+    text: 'Here is something to cheer you up:'
+  utter_choose:
+  - text: Please choose one of service that you want to know...
+  utter_choose_one_service:
+  - text: Ok, i can help you with that, anything else?
+  - text: Sure, all of that are included in our basic services, anything else that
+      i can help?
+  utter_description:
+  - text: nuSDK is an API that can provide you with embedded live streaming, video
+      call, voice call, and unified messaging into your mobile apps in minutes.
+  utter_did_that_help:
+  - text: Did that help you?
+  utter_goodbye:
+  - text: Bye
+  utter_greet:
+  - text: Hey! How are you?
+  utter_happy:
+  - text: Great, carry on!
+  utter_iamabot:
+  - text: I am nuSDKBot.
+  utter_ls_desc:
+  - text: nuSDK live streaming service provides high-quality live streaming with low
+      bandwidth and latency to get the best experience for you
+  utter_pricing_desc:
+  - text: we provide you as low as 75$ per month for basic plan, for more information,
+      you can go to [nuSDK Webpage] (http://192.168.0.31/newpricing.php)
+  utter_random_features:
+  - text: We have several features, including Voice Call, Video Call, Live Streaming,
+      Whiteboard, and Screen Sharing.
+  utter_ss_desc:
+  - text: nuSDK Screen Sharing can provide you with enhanced experience for your demos
+      and training, or for guide your customer by allowing them to view your screen
+      from theirs in real-time.
+  utter_unclear:
+  - text: Hi, My knowledge is still limited, thanks for your consideration.
+  utter_vc_desc:
+  - text: We can provide you with high-quality video interaction with low bandwidth
+      and low latency to provide the best experience for your customers
+  utter_wb_desc:
+  - text: nuSDK Whiteboard provide you a collaborative tool to facilitate communication
+      by allowing to write and sketch on a shared whiteboard space.
+  utter_welcome:
+  - text: Hi, I'm nuSDKBot, i can help you to get information about nuSDK API, please
+      ask me..
+session_config:
+  carry_over_slots_to_new_session: true
+  session_expiration_time: 60.0

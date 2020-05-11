@@ -1,0 +1,949 @@
+2020-02-11 10:45:54,785 [INFO ]  Starting Rasa server on http://localhost:5005
+2020-02-11 10:46:14,034 [INFO ]  Using /var/folders/97/yh4slbb17hncvzbj6vrkmqfw0000gn/T/tfhub_modules to cache modules.
+2020-02-11 10:46:14,058 [INFO ]  Downloading TF-Hub Module 'http://models.poly-ai.com/convert/v1/model.tar.gz'.
+2020-02-11 10:47:04,349 [INFO ]  Downloading http://models.poly-ai.com/convert/v1/model.tar.gz: 12.35MB
+2020-02-11 10:47:34,109 [INFO ]  Downloading http://models.poly-ai.com/convert/v1/model.tar.gz: 22.35MB
+2020-02-11 10:47:51,101 [INFO ]  Downloading http://models.poly-ai.com/convert/v1/model.tar.gz: 32.35MB
+2020-02-11 10:48:11,526 [INFO ]  Downloading http://models.poly-ai.com/convert/v1/model.tar.gz: 52.35MB
+2020-02-11 10:48:27,565 [INFO ]  Downloading http://models.poly-ai.com/convert/v1/model.tar.gz: 88.59MB
+2020-02-11 10:48:46,629 [INFO ]  Downloading http://models.poly-ai.com/convert/v1/model.tar.gz: 138.59MB
+2020-02-11 10:48:52,711 [INFO ]  Downloaded http://models.poly-ai.com/convert/v1/model.tar.gz, Total size: 152.02MB
+2020-02-11 10:48:52,833 [INFO ]  Downloaded TF-Hub Module 'http://models.poly-ai.com/convert/v1/model.tar.gz'.
+2020-02-11 14:01:30,418 [INFO ]  Starting Rasa server on http://localhost:5005
+2020-02-11 14:01:55,580 [INFO ]  Using /var/folders/97/yh4slbb17hncvzbj6vrkmqfw0000gn/T/tfhub_modules to cache modules.
+2020-02-11 14:01:55,581 [INFO ]  Downloading TF-Hub Module 'http://models.poly-ai.com/convert/v1/model.tar.gz'.
+2020-02-11 14:02:14,965 [INFO ]  Downloading http://models.poly-ai.com/convert/v1/model.tar.gz: 52.35MB
+2020-02-11 14:02:30,319 [INFO ]  Downloading http://models.poly-ai.com/convert/v1/model.tar.gz: 98.59MB
+2020-02-11 14:02:47,451 [INFO ]  Downloading http://models.poly-ai.com/convert/v1/model.tar.gz: 148.59MB
+2020-02-11 14:02:47,961 [INFO ]  Downloaded http://models.poly-ai.com/convert/v1/model.tar.gz, Total size: 152.02MB
+2020-02-11 14:02:48,061 [INFO ]  Downloaded TF-Hub Module 'http://models.poly-ai.com/convert/v1/model.tar.gz'.
+2020-02-11 15:14:11,673 [ERROR]  Exception occurred while handling uri: 'http://431276fc.ngrok.io/webhooks/rest/webhook'
+Traceback (most recent call last):
+  File "/Users/rfr/opt/anaconda3/envs/rasa/lib/python3.7/site-packages/sanic/app.py", line 918, in handle_request
+    handler, args, kwargs, uri = self.router.get(request)
+  File "/Users/rfr/opt/anaconda3/envs/rasa/lib/python3.7/site-packages/sanic/router.py", line 407, in get
+    return self._get(request.path, request.method, "")
+  File "/Users/rfr/opt/anaconda3/envs/rasa/lib/python3.7/site-packages/sanic/router.py", line 447, in _get
+    raise method_not_supported
+sanic.exceptions.MethodNotSupported: Method GET not allowed for URL /webhooks/rest/webhook
+2020-02-11 15:30:24,201 [ERROR]  Exception occurred while handling uri: 'http://431276fc.ngrok.io/webhooks/rest/webhookwhat+are+you%3F%3F%3F%3F'
+Traceback (most recent call last):
+  File "/Users/rfr/opt/anaconda3/envs/rasa/lib/python3.7/site-packages/sanic/app.py", line 918, in handle_request
+    handler, args, kwargs, uri = self.router.get(request)
+  File "/Users/rfr/opt/anaconda3/envs/rasa/lib/python3.7/site-packages/sanic/router.py", line 407, in get
+    return self._get(request.path, request.method, "")
+  File "/Users/rfr/opt/anaconda3/envs/rasa/lib/python3.7/site-packages/sanic/router.py", line 470, in _get
+    raise NotFound("Requested URL {} not found".format(url))
+sanic.exceptions.NotFound: Requested URL /webhooks/rest/webhookwhat+are+you???? not found
+2020-02-11 15:33:07,044 [ERROR]  Exception occurred while handling uri: 'http://431276fc.ngrok.io/webhooks/rest/webhookh'
+Traceback (most recent call last):
+  File "/Users/rfr/opt/anaconda3/envs/rasa/lib/python3.7/site-packages/sanic/app.py", line 918, in handle_request
+    handler, args, kwargs, uri = self.router.get(request)
+  File "/Users/rfr/opt/anaconda3/envs/rasa/lib/python3.7/site-packages/sanic/router.py", line 407, in get
+    return self._get(request.path, request.method, "")
+  File "/Users/rfr/opt/anaconda3/envs/rasa/lib/python3.7/site-packages/sanic/router.py", line 470, in _get
+    raise NotFound("Requested URL {} not found".format(url))
+sanic.exceptions.NotFound: Requested URL /webhooks/rest/webhookh not found
+2020-02-11 15:33:07,045 [ERROR]  Exception occurred while handling uri: 'http://431276fc.ngrok.io/webhooks/rest/webhookl'
+Traceback (most recent call last):
+  File "/Users/rfr/opt/anaconda3/envs/rasa/lib/python3.7/site-packages/sanic/app.py", line 918, in handle_request
+    handler, args, kwargs, uri = self.router.get(request)
+  File "/Users/rfr/opt/anaconda3/envs/rasa/lib/python3.7/site-packages/sanic/router.py", line 407, in get
+    return self._get(request.path, request.method, "")
+  File "/Users/rfr/opt/anaconda3/envs/rasa/lib/python3.7/site-packages/sanic/router.py", line 470, in _get
+    raise NotFound("Requested URL {} not found".format(url))
+sanic.exceptions.NotFound: Requested URL /webhooks/rest/webhookl not found
+2020-02-11 15:33:07,659 [ERROR]  Exception occurred while handling uri: 'http://431276fc.ngrok.io/webhooks/rest/webhooko'
+Traceback (most recent call last):
+  File "/Users/rfr/opt/anaconda3/envs/rasa/lib/python3.7/site-packages/sanic/app.py", line 918, in handle_request
+    handler, args, kwargs, uri = self.router.get(request)
+  File "/Users/rfr/opt/anaconda3/envs/rasa/lib/python3.7/site-packages/sanic/router.py", line 407, in get
+    return self._get(request.path, request.method, "")
+  File "/Users/rfr/opt/anaconda3/envs/rasa/lib/python3.7/site-packages/sanic/router.py", line 470, in _get
+    raise NotFound("Requested URL {} not found".format(url))
+sanic.exceptions.NotFound: Requested URL /webhooks/rest/webhooko not found
+2020-02-11 15:33:07,659 [ERROR]  Exception occurred while handling uri: 'http://431276fc.ngrok.io/webhooks/rest/webhookl'
+Traceback (most recent call last):
+  File "/Users/rfr/opt/anaconda3/envs/rasa/lib/python3.7/site-packages/sanic/app.py", line 918, in handle_request
+    handler, args, kwargs, uri = self.router.get(request)
+  File "/Users/rfr/opt/anaconda3/envs/rasa/lib/python3.7/site-packages/sanic/router.py", line 407, in get
+    return self._get(request.path, request.method, "")
+  File "/Users/rfr/opt/anaconda3/envs/rasa/lib/python3.7/site-packages/sanic/router.py", line 470, in _get
+    raise NotFound("Requested URL {} not found".format(url))
+sanic.exceptions.NotFound: Requested URL /webhooks/rest/webhookl not found
+2020-02-11 15:35:30,443 [ERROR]  Exception occurred while handling uri: 'http://431276fc.ngrok.io/webhooks/rest/webhookhello'
+Traceback (most recent call last):
+  File "/Users/rfr/opt/anaconda3/envs/rasa/lib/python3.7/site-packages/sanic/app.py", line 918, in handle_request
+    handler, args, kwargs, uri = self.router.get(request)
+  File "/Users/rfr/opt/anaconda3/envs/rasa/lib/python3.7/site-packages/sanic/router.py", line 407, in get
+    return self._get(request.path, request.method, "")
+  File "/Users/rfr/opt/anaconda3/envs/rasa/lib/python3.7/site-packages/sanic/router.py", line 470, in _get
+    raise NotFound("Requested URL {} not found".format(url))
+sanic.exceptions.NotFound: Requested URL /webhooks/rest/webhookhello not found
+2020-02-11 15:36:09,560 [ERROR]  Exception occurred while handling uri: 'http://431276fc.ngrok.io/webhooks/rest/webhookstupid'
+Traceback (most recent call last):
+  File "/Users/rfr/opt/anaconda3/envs/rasa/lib/python3.7/site-packages/sanic/app.py", line 918, in handle_request
+    handler, args, kwargs, uri = self.router.get(request)
+  File "/Users/rfr/opt/anaconda3/envs/rasa/lib/python3.7/site-packages/sanic/router.py", line 407, in get
+    return self._get(request.path, request.method, "")
+  File "/Users/rfr/opt/anaconda3/envs/rasa/lib/python3.7/site-packages/sanic/router.py", line 470, in _get
+    raise NotFound("Requested URL {} not found".format(url))
+sanic.exceptions.NotFound: Requested URL /webhooks/rest/webhookstupid not found
+2020-02-11 15:37:09,323 [ERROR]  Exception occurred while handling uri: 'http://431276fc.ngrok.io/webhooks/rest/webhookkucing'
+Traceback (most recent call last):
+  File "/Users/rfr/opt/anaconda3/envs/rasa/lib/python3.7/site-packages/sanic/app.py", line 918, in handle_request
+    handler, args, kwargs, uri = self.router.get(request)
+  File "/Users/rfr/opt/anaconda3/envs/rasa/lib/python3.7/site-packages/sanic/router.py", line 407, in get
+    return self._get(request.path, request.method, "")
+  File "/Users/rfr/opt/anaconda3/envs/rasa/lib/python3.7/site-packages/sanic/router.py", line 470, in _get
+    raise NotFound("Requested URL {} not found".format(url))
+sanic.exceptions.NotFound: Requested URL /webhooks/rest/webhookkucing not found
+2020-02-11 15:38:18,078 [ERROR]  Exception occurred while handling uri: 'http://431276fc.ngrok.io/webhooks/rest/webhook'
+Traceback (most recent call last):
+  File "/Users/rfr/opt/anaconda3/envs/rasa/lib/python3.7/site-packages/sanic/app.py", line 918, in handle_request
+    handler, args, kwargs, uri = self.router.get(request)
+  File "/Users/rfr/opt/anaconda3/envs/rasa/lib/python3.7/site-packages/sanic/router.py", line 407, in get
+    return self._get(request.path, request.method, "")
+  File "/Users/rfr/opt/anaconda3/envs/rasa/lib/python3.7/site-packages/sanic/router.py", line 447, in _get
+    raise method_not_supported
+sanic.exceptions.MethodNotSupported: Method GET not allowed for URL /webhooks/rest/webhook
+2020-02-11 15:40:12,099 [ERROR]  Exception occurred while handling uri: 'http://431276fc.ngrok.io/webhooks/rest/webhook'
+Traceback (most recent call last):
+  File "/Users/rfr/opt/anaconda3/envs/rasa/lib/python3.7/site-packages/sanic/app.py", line 918, in handle_request
+    handler, args, kwargs, uri = self.router.get(request)
+  File "/Users/rfr/opt/anaconda3/envs/rasa/lib/python3.7/site-packages/sanic/router.py", line 407, in get
+    return self._get(request.path, request.method, "")
+  File "/Users/rfr/opt/anaconda3/envs/rasa/lib/python3.7/site-packages/sanic/router.py", line 447, in _get
+    raise method_not_supported
+sanic.exceptions.MethodNotSupported: Method GET not allowed for URL /webhooks/rest/webhook
+2020-02-11 15:41:05,460 [ERROR]  Exception occurred while handling uri: 'http://431276fc.ngrok.io/webhooks/rest/webhook'
+Traceback (most recent call last):
+  File "/Users/rfr/opt/anaconda3/envs/rasa/lib/python3.7/site-packages/sanic/app.py", line 918, in handle_request
+    handler, args, kwargs, uri = self.router.get(request)
+  File "/Users/rfr/opt/anaconda3/envs/rasa/lib/python3.7/site-packages/sanic/router.py", line 407, in get
+    return self._get(request.path, request.method, "")
+  File "/Users/rfr/opt/anaconda3/envs/rasa/lib/python3.7/site-packages/sanic/router.py", line 447, in _get
+    raise method_not_supported
+sanic.exceptions.MethodNotSupported: Method GET not allowed for URL /webhooks/rest/webhook
+2020-02-11 15:41:07,098 [ERROR]  Exception occurred while handling uri: 'http://431276fc.ngrok.io/webhooks/rest/webhook'
+Traceback (most recent call last):
+  File "/Users/rfr/opt/anaconda3/envs/rasa/lib/python3.7/site-packages/sanic/app.py", line 918, in handle_request
+    handler, args, kwargs, uri = self.router.get(request)
+  File "/Users/rfr/opt/anaconda3/envs/rasa/lib/python3.7/site-packages/sanic/router.py", line 407, in get
+    return self._get(request.path, request.method, "")
+  File "/Users/rfr/opt/anaconda3/envs/rasa/lib/python3.7/site-packages/sanic/router.py", line 447, in _get
+    raise method_not_supported
+sanic.exceptions.MethodNotSupported: Method GET not allowed for URL /webhooks/rest/webhook
+2020-02-11 15:41:33,518 [ERROR]  Exception occurred while handling uri: 'http://431276fc.ngrok.io/webhooks/rest/webhook'
+Traceback (most recent call last):
+  File "/Users/rfr/opt/anaconda3/envs/rasa/lib/python3.7/site-packages/sanic/app.py", line 918, in handle_request
+    handler, args, kwargs, uri = self.router.get(request)
+  File "/Users/rfr/opt/anaconda3/envs/rasa/lib/python3.7/site-packages/sanic/router.py", line 407, in get
+    return self._get(request.path, request.method, "")
+  File "/Users/rfr/opt/anaconda3/envs/rasa/lib/python3.7/site-packages/sanic/router.py", line 447, in _get
+    raise method_not_supported
+sanic.exceptions.MethodNotSupported: Method GET not allowed for URL /webhooks/rest/webhook
+2020-02-11 15:41:35,158 [ERROR]  Exception occurred while handling uri: 'http://431276fc.ngrok.io/webhooks/rest/webhook'
+Traceback (most recent call last):
+  File "/Users/rfr/opt/anaconda3/envs/rasa/lib/python3.7/site-packages/sanic/app.py", line 918, in handle_request
+    handler, args, kwargs, uri = self.router.get(request)
+  File "/Users/rfr/opt/anaconda3/envs/rasa/lib/python3.7/site-packages/sanic/router.py", line 407, in get
+    return self._get(request.path, request.method, "")
+  File "/Users/rfr/opt/anaconda3/envs/rasa/lib/python3.7/site-packages/sanic/router.py", line 447, in _get
+    raise method_not_supported
+sanic.exceptions.MethodNotSupported: Method GET not allowed for URL /webhooks/rest/webhook
+2020-02-11 15:43:35,284 [ERROR]  Exception occurred while handling uri: 'http://431276fc.ngrok.io/webhooks/rest/webhook'
+Traceback (most recent call last):
+  File "/Users/rfr/opt/anaconda3/envs/rasa/lib/python3.7/site-packages/sanic/app.py", line 918, in handle_request
+    handler, args, kwargs, uri = self.router.get(request)
+  File "/Users/rfr/opt/anaconda3/envs/rasa/lib/python3.7/site-packages/sanic/router.py", line 407, in get
+    return self._get(request.path, request.method, "")
+  File "/Users/rfr/opt/anaconda3/envs/rasa/lib/python3.7/site-packages/sanic/router.py", line 447, in _get
+    raise method_not_supported
+sanic.exceptions.MethodNotSupported: Method GET not allowed for URL /webhooks/rest/webhook
+2020-02-11 15:52:10,848 [ERROR]  Exception occurred while handling uri: 'http://431276fc.ngrok.io/webhooks/rest/webhook'
+Traceback (most recent call last):
+  File "/Users/rfr/opt/anaconda3/envs/rasa/lib/python3.7/site-packages/sanic/app.py", line 918, in handle_request
+    handler, args, kwargs, uri = self.router.get(request)
+  File "/Users/rfr/opt/anaconda3/envs/rasa/lib/python3.7/site-packages/sanic/router.py", line 407, in get
+    return self._get(request.path, request.method, "")
+  File "/Users/rfr/opt/anaconda3/envs/rasa/lib/python3.7/site-packages/sanic/router.py", line 447, in _get
+    raise method_not_supported
+sanic.exceptions.MethodNotSupported: Method GET not allowed for URL /webhooks/rest/webhook
+2020-02-11 15:56:46,666 [ERROR]  Exception occurred while handling uri: 'http://431276fc.ngrok.io/webhooks/rest/webhook/'
+Traceback (most recent call last):
+  File "/Users/rfr/opt/anaconda3/envs/rasa/lib/python3.7/site-packages/sanic/app.py", line 918, in handle_request
+    handler, args, kwargs, uri = self.router.get(request)
+  File "/Users/rfr/opt/anaconda3/envs/rasa/lib/python3.7/site-packages/sanic/router.py", line 407, in get
+    return self._get(request.path, request.method, "")
+  File "/Users/rfr/opt/anaconda3/envs/rasa/lib/python3.7/site-packages/sanic/router.py", line 447, in _get
+    raise method_not_supported
+sanic.exceptions.MethodNotSupported: Method GET not allowed for URL /webhooks/rest/webhook/
+2020-02-11 16:13:03,845 [ERROR]  Exception occurred while handling uri: 'http://431276fc.ngrok.io/webhooks/rest/webhookhello'
+Traceback (most recent call last):
+  File "/Users/rfr/opt/anaconda3/envs/rasa/lib/python3.7/site-packages/sanic/app.py", line 918, in handle_request
+    handler, args, kwargs, uri = self.router.get(request)
+  File "/Users/rfr/opt/anaconda3/envs/rasa/lib/python3.7/site-packages/sanic/router.py", line 407, in get
+    return self._get(request.path, request.method, "")
+  File "/Users/rfr/opt/anaconda3/envs/rasa/lib/python3.7/site-packages/sanic/router.py", line 470, in _get
+    raise NotFound("Requested URL {} not found".format(url))
+sanic.exceptions.NotFound: Requested URL /webhooks/rest/webhookhello not found
+2020-02-11 16:21:26,836 [ERROR]  Exception occurred while handling uri: 'http://431276fc.ngrok.io/webhooks/rest/webhookhello'
+Traceback (most recent call last):
+  File "/Users/rfr/opt/anaconda3/envs/rasa/lib/python3.7/site-packages/sanic/app.py", line 918, in handle_request
+    handler, args, kwargs, uri = self.router.get(request)
+  File "/Users/rfr/opt/anaconda3/envs/rasa/lib/python3.7/site-packages/sanic/router.py", line 407, in get
+    return self._get(request.path, request.method, "")
+  File "/Users/rfr/opt/anaconda3/envs/rasa/lib/python3.7/site-packages/sanic/router.py", line 470, in _get
+    raise NotFound("Requested URL {} not found".format(url))
+sanic.exceptions.NotFound: Requested URL /webhooks/rest/webhookhello not found
+2020-02-11 16:54:12,619 [ERROR]  Exception occurred while handling uri: 'http://431276fc.ngrok.io/webhooks/rest/webhook'
+Traceback (most recent call last):
+  File "/Users/rfr/opt/anaconda3/envs/rasa/lib/python3.7/site-packages/sanic/request.py", line 169, in load_json
+    self.parsed_json = loads(self.body)
+ValueError: Expected object or value
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/rfr/opt/anaconda3/envs/rasa/lib/python3.7/site-packages/sanic/app.py", line 942, in handle_request
+    response = await response
+  File "/Users/rfr/rasa/rasa/core/channels/channel.py", line 462, in receive
+    sender_id = await self._extract_sender(request)
+  File "/Users/rfr/rasa/rasa/core/channels/channel.py", line 412, in _extract_sender
+    return req.json.get("sender", None)
+  File "/Users/rfr/opt/anaconda3/envs/rasa/lib/python3.7/site-packages/sanic/request.py", line 163, in json
+    self.load_json()
+  File "/Users/rfr/opt/anaconda3/envs/rasa/lib/python3.7/site-packages/sanic/request.py", line 173, in load_json
+    raise InvalidUsage("Failed when parsing body as json")
+sanic.exceptions.InvalidUsage: Failed when parsing body as json
+2020-02-11 16:54:39,964 [ERROR]  Exception occurred while handling uri: 'http://431276fc.ngrok.io/webhooks/rest/webhook'
+Traceback (most recent call last):
+  File "/Users/rfr/opt/anaconda3/envs/rasa/lib/python3.7/site-packages/sanic/request.py", line 169, in load_json
+    self.parsed_json = loads(self.body)
+ValueError: Expected object or value
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/rfr/opt/anaconda3/envs/rasa/lib/python3.7/site-packages/sanic/app.py", line 942, in handle_request
+    response = await response
+  File "/Users/rfr/rasa/rasa/core/channels/channel.py", line 462, in receive
+    sender_id = await self._extract_sender(request)
+  File "/Users/rfr/rasa/rasa/core/channels/channel.py", line 412, in _extract_sender
+    return req.json.get("sender", None)
+  File "/Users/rfr/opt/anaconda3/envs/rasa/lib/python3.7/site-packages/sanic/request.py", line 163, in json
+    self.load_json()
+  File "/Users/rfr/opt/anaconda3/envs/rasa/lib/python3.7/site-packages/sanic/request.py", line 173, in load_json
+    raise InvalidUsage("Failed when parsing body as json")
+sanic.exceptions.InvalidUsage: Failed when parsing body as json
+2020-02-11 16:56:29,119 [ERROR]  Exception occurred while handling uri: 'http://431276fc.ngrok.io/webhooks/rest/webhook'
+Traceback (most recent call last):
+  File "/Users/rfr/opt/anaconda3/envs/rasa/lib/python3.7/site-packages/sanic/request.py", line 169, in load_json
+    self.parsed_json = loads(self.body)
+ValueError: Expected object or value
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/rfr/opt/anaconda3/envs/rasa/lib/python3.7/site-packages/sanic/app.py", line 942, in handle_request
+    response = await response
+  File "/Users/rfr/rasa/rasa/core/channels/channel.py", line 462, in receive
+    sender_id = await self._extract_sender(request)
+  File "/Users/rfr/rasa/rasa/core/channels/channel.py", line 412, in _extract_sender
+    return req.json.get("sender", None)
+  File "/Users/rfr/opt/anaconda3/envs/rasa/lib/python3.7/site-packages/sanic/request.py", line 163, in json
+    self.load_json()
+  File "/Users/rfr/opt/anaconda3/envs/rasa/lib/python3.7/site-packages/sanic/request.py", line 173, in load_json
+    raise InvalidUsage("Failed when parsing body as json")
+sanic.exceptions.InvalidUsage: Failed when parsing body as json
+2020-02-11 17:03:12,577 [ERROR]  An exception occured while handling user message 'None'.
+Traceback (most recent call last):
+  File "/Users/rfr/rasa/rasa/core/channels/channel.py", line 487, in receive
+    metadata=metadata,
+  File "/Users/rfr/rasa/rasa/core/channels/channel.py", line 83, in handler
+    await app.agent.handle_message(*args, **kwargs)
+  File "/Users/rfr/rasa/rasa/core/agent.py", line 485, in handle_message
+    return await processor.handle_message(message)
+  File "/Users/rfr/rasa/rasa/core/processor.py", line 93, in handle_message
+    tracker = await self.log_message(message, should_save_tracker=False)
+  File "/Users/rfr/rasa/rasa/core/processor.py", line 222, in log_message
+    await self._handle_message_with_tracker(message, tracker)
+  File "/Users/rfr/rasa/rasa/core/processor.py", line 454, in _handle_message_with_tracker
+    parse_data = await self._parse_message(message, tracker)
+  File "/Users/rfr/rasa/rasa/core/processor.py", line 427, in _parse_message
+    if message.text.startswith(INTENT_MESSAGE_PREFIX):
+AttributeError: 'NoneType' object has no attribute 'startswith'
+2020-02-11 17:04:51,106 [ERROR]  Exception occurred while handling uri: 'http://431276fc.ngrok.io/webhooks/rest/webhook'
+Traceback (most recent call last):
+  File "/Users/rfr/opt/anaconda3/envs/rasa/lib/python3.7/site-packages/sanic/request.py", line 169, in load_json
+    self.parsed_json = loads(self.body)
+ValueError: Expected object or value
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/rfr/opt/anaconda3/envs/rasa/lib/python3.7/site-packages/sanic/app.py", line 942, in handle_request
+    response = await response
+  File "/Users/rfr/rasa/rasa/core/channels/channel.py", line 462, in receive
+    sender_id = await self._extract_sender(request)
+  File "/Users/rfr/rasa/rasa/core/channels/channel.py", line 412, in _extract_sender
+    return req.json.get("sender", None)
+  File "/Users/rfr/opt/anaconda3/envs/rasa/lib/python3.7/site-packages/sanic/request.py", line 163, in json
+    self.load_json()
+  File "/Users/rfr/opt/anaconda3/envs/rasa/lib/python3.7/site-packages/sanic/request.py", line 173, in load_json
+    raise InvalidUsage("Failed when parsing body as json")
+sanic.exceptions.InvalidUsage: Failed when parsing body as json
+2020-02-11 17:05:47,818 [ERROR]  Exception occurred while handling uri: 'http://431276fc.ngrok.io/webhooks/rest/webhook'
+Traceback (most recent call last):
+  File "/Users/rfr/opt/anaconda3/envs/rasa/lib/python3.7/site-packages/sanic/request.py", line 169, in load_json
+    self.parsed_json = loads(self.body)
+ValueError: Expected object or value
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/rfr/opt/anaconda3/envs/rasa/lib/python3.7/site-packages/sanic/app.py", line 942, in handle_request
+    response = await response
+  File "/Users/rfr/rasa/rasa/core/channels/channel.py", line 462, in receive
+    sender_id = await self._extract_sender(request)
+  File "/Users/rfr/rasa/rasa/core/channels/channel.py", line 412, in _extract_sender
+    return req.json.get("sender", None)
+  File "/Users/rfr/opt/anaconda3/envs/rasa/lib/python3.7/site-packages/sanic/request.py", line 163, in json
+    self.load_json()
+  File "/Users/rfr/opt/anaconda3/envs/rasa/lib/python3.7/site-packages/sanic/request.py", line 173, in load_json
+    raise InvalidUsage("Failed when parsing body as json")
+sanic.exceptions.InvalidUsage: Failed when parsing body as json
+2020-02-11 17:21:33,800 [ERROR]  Exception occurred while handling uri: 'http://431276fc.ngrok.io/webhooks/rest/webhook'
+Traceback (most recent call last):
+  File "/Users/rfr/opt/anaconda3/envs/rasa/lib/python3.7/site-packages/sanic/request.py", line 169, in load_json
+    self.parsed_json = loads(self.body)
+ValueError: Trailing data
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/rfr/opt/anaconda3/envs/rasa/lib/python3.7/site-packages/sanic/app.py", line 942, in handle_request
+    response = await response
+  File "/Users/rfr/rasa/rasa/core/channels/channel.py", line 462, in receive
+    sender_id = await self._extract_sender(request)
+  File "/Users/rfr/rasa/rasa/core/channels/channel.py", line 412, in _extract_sender
+    return req.json.get("sender", None)
+  File "/Users/rfr/opt/anaconda3/envs/rasa/lib/python3.7/site-packages/sanic/request.py", line 163, in json
+    self.load_json()
+  File "/Users/rfr/opt/anaconda3/envs/rasa/lib/python3.7/site-packages/sanic/request.py", line 173, in load_json
+    raise InvalidUsage("Failed when parsing body as json")
+sanic.exceptions.InvalidUsage: Failed when parsing body as json
+2020-02-11 17:25:25,020 [ERROR]  Exception occurred while handling uri: 'http://431276fc.ngrok.io/webhooks/rest/webhook'
+Traceback (most recent call last):
+  File "/Users/rfr/opt/anaconda3/envs/rasa/lib/python3.7/site-packages/sanic/request.py", line 169, in load_json
+    self.parsed_json = loads(self.body)
+ValueError: Expected object or value
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/rfr/opt/anaconda3/envs/rasa/lib/python3.7/site-packages/sanic/app.py", line 942, in handle_request
+    response = await response
+  File "/Users/rfr/rasa/rasa/core/channels/channel.py", line 462, in receive
+    sender_id = await self._extract_sender(request)
+  File "/Users/rfr/rasa/rasa/core/channels/channel.py", line 412, in _extract_sender
+    return req.json.get("sender", None)
+  File "/Users/rfr/opt/anaconda3/envs/rasa/lib/python3.7/site-packages/sanic/request.py", line 163, in json
+    self.load_json()
+  File "/Users/rfr/opt/anaconda3/envs/rasa/lib/python3.7/site-packages/sanic/request.py", line 173, in load_json
+    raise InvalidUsage("Failed when parsing body as json")
+sanic.exceptions.InvalidUsage: Failed when parsing body as json
+2020-02-11 17:25:50,623 [ERROR]  Exception occurred while handling uri: 'http://431276fc.ngrok.io/webhooks/rest/webhook'
+Traceback (most recent call last):
+  File "/Users/rfr/opt/anaconda3/envs/rasa/lib/python3.7/site-packages/sanic/request.py", line 169, in load_json
+    self.parsed_json = loads(self.body)
+ValueError: Expected object or value
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/rfr/opt/anaconda3/envs/rasa/lib/python3.7/site-packages/sanic/app.py", line 942, in handle_request
+    response = await response
+  File "/Users/rfr/rasa/rasa/core/channels/channel.py", line 462, in receive
+    sender_id = await self._extract_sender(request)
+  File "/Users/rfr/rasa/rasa/core/channels/channel.py", line 412, in _extract_sender
+    return req.json.get("sender", None)
+  File "/Users/rfr/opt/anaconda3/envs/rasa/lib/python3.7/site-packages/sanic/request.py", line 163, in json
+    self.load_json()
+  File "/Users/rfr/opt/anaconda3/envs/rasa/lib/python3.7/site-packages/sanic/request.py", line 173, in load_json
+    raise InvalidUsage("Failed when parsing body as json")
+sanic.exceptions.InvalidUsage: Failed when parsing body as json
+2020-02-11 17:27:10,091 [ERROR]  Exception occurred while handling uri: 'http://431276fc.ngrok.io/webhooks/rest/webhook'
+Traceback (most recent call last):
+  File "/Users/rfr/opt/anaconda3/envs/rasa/lib/python3.7/site-packages/sanic/request.py", line 169, in load_json
+    self.parsed_json = loads(self.body)
+ValueError: Trailing data
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/rfr/opt/anaconda3/envs/rasa/lib/python3.7/site-packages/sanic/app.py", line 942, in handle_request
+    response = await response
+  File "/Users/rfr/rasa/rasa/core/channels/channel.py", line 462, in receive
+    sender_id = await self._extract_sender(request)
+  File "/Users/rfr/rasa/rasa/core/channels/channel.py", line 412, in _extract_sender
+    return req.json.get("sender", None)
+  File "/Users/rfr/opt/anaconda3/envs/rasa/lib/python3.7/site-packages/sanic/request.py", line 163, in json
+    self.load_json()
+  File "/Users/rfr/opt/anaconda3/envs/rasa/lib/python3.7/site-packages/sanic/request.py", line 173, in load_json
+    raise InvalidUsage("Failed when parsing body as json")
+sanic.exceptions.InvalidUsage: Failed when parsing body as json
+2020-02-11 17:28:00,509 [ERROR]  Exception occurred while handling uri: 'http://431276fc.ngrok.io/webhooks/rest/webhook'
+Traceback (most recent call last):
+  File "/Users/rfr/opt/anaconda3/envs/rasa/lib/python3.7/site-packages/sanic/request.py", line 169, in load_json
+    self.parsed_json = loads(self.body)
+ValueError: Expected object or value
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/rfr/opt/anaconda3/envs/rasa/lib/python3.7/site-packages/sanic/app.py", line 942, in handle_request
+    response = await response
+  File "/Users/rfr/rasa/rasa/core/channels/channel.py", line 462, in receive
+    sender_id = await self._extract_sender(request)
+  File "/Users/rfr/rasa/rasa/core/channels/channel.py", line 412, in _extract_sender
+    return req.json.get("sender", None)
+  File "/Users/rfr/opt/anaconda3/envs/rasa/lib/python3.7/site-packages/sanic/request.py", line 163, in json
+    self.load_json()
+  File "/Users/rfr/opt/anaconda3/envs/rasa/lib/python3.7/site-packages/sanic/request.py", line 173, in load_json
+    raise InvalidUsage("Failed when parsing body as json")
+sanic.exceptions.InvalidUsage: Failed when parsing body as json
+2020-02-11 17:29:23,203 [ERROR]  Exception occurred while handling uri: 'http://431276fc.ngrok.io/webhooks/rest/webhook'
+Traceback (most recent call last):
+  File "/Users/rfr/opt/anaconda3/envs/rasa/lib/python3.7/site-packages/sanic/request.py", line 169, in load_json
+    self.parsed_json = loads(self.body)
+ValueError: Trailing data
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/rfr/opt/anaconda3/envs/rasa/lib/python3.7/site-packages/sanic/app.py", line 942, in handle_request
+    response = await response
+  File "/Users/rfr/rasa/rasa/core/channels/channel.py", line 462, in receive
+    sender_id = await self._extract_sender(request)
+  File "/Users/rfr/rasa/rasa/core/channels/channel.py", line 412, in _extract_sender
+    return req.json.get("sender", None)
+  File "/Users/rfr/opt/anaconda3/envs/rasa/lib/python3.7/site-packages/sanic/request.py", line 163, in json
+    self.load_json()
+  File "/Users/rfr/opt/anaconda3/envs/rasa/lib/python3.7/site-packages/sanic/request.py", line 173, in load_json
+    raise InvalidUsage("Failed when parsing body as json")
+sanic.exceptions.InvalidUsage: Failed when parsing body as json
+2020-02-11 17:30:52,907 [ERROR]  Exception occurred while handling uri: 'http://431276fc.ngrok.io/webhooks/rest/webhook'
+Traceback (most recent call last):
+  File "/Users/rfr/opt/anaconda3/envs/rasa/lib/python3.7/site-packages/sanic/request.py", line 169, in load_json
+    self.parsed_json = loads(self.body)
+ValueError: Trailing data
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/rfr/opt/anaconda3/envs/rasa/lib/python3.7/site-packages/sanic/app.py", line 942, in handle_request
+    response = await response
+  File "/Users/rfr/rasa/rasa/core/channels/channel.py", line 462, in receive
+    sender_id = await self._extract_sender(request)
+  File "/Users/rfr/rasa/rasa/core/channels/channel.py", line 412, in _extract_sender
+    return req.json.get("sender", None)
+  File "/Users/rfr/opt/anaconda3/envs/rasa/lib/python3.7/site-packages/sanic/request.py", line 163, in json
+    self.load_json()
+  File "/Users/rfr/opt/anaconda3/envs/rasa/lib/python3.7/site-packages/sanic/request.py", line 173, in load_json
+    raise InvalidUsage("Failed when parsing body as json")
+sanic.exceptions.InvalidUsage: Failed when parsing body as json
+2020-02-11 17:31:32,229 [ERROR]  Exception occurred while handling uri: 'http://431276fc.ngrok.io/webhooks/rest/webhook'
+Traceback (most recent call last):
+  File "/Users/rfr/opt/anaconda3/envs/rasa/lib/python3.7/site-packages/sanic/request.py", line 169, in load_json
+    self.parsed_json = loads(self.body)
+ValueError: Trailing data
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/rfr/opt/anaconda3/envs/rasa/lib/python3.7/site-packages/sanic/app.py", line 942, in handle_request
+    response = await response
+  File "/Users/rfr/rasa/rasa/core/channels/channel.py", line 462, in receive
+    sender_id = await self._extract_sender(request)
+  File "/Users/rfr/rasa/rasa/core/channels/channel.py", line 412, in _extract_sender
+    return req.json.get("sender", None)
+  File "/Users/rfr/opt/anaconda3/envs/rasa/lib/python3.7/site-packages/sanic/request.py", line 163, in json
+    self.load_json()
+  File "/Users/rfr/opt/anaconda3/envs/rasa/lib/python3.7/site-packages/sanic/request.py", line 173, in load_json
+    raise InvalidUsage("Failed when parsing body as json")
+sanic.exceptions.InvalidUsage: Failed when parsing body as json
+2020-02-11 17:32:26,502 [ERROR]  Exception occurred while handling uri: 'http://431276fc.ngrok.io/webhooks/rest/webhook'
+Traceback (most recent call last):
+  File "/Users/rfr/opt/anaconda3/envs/rasa/lib/python3.7/site-packages/sanic/request.py", line 169, in load_json
+    self.parsed_json = loads(self.body)
+ValueError: Trailing data
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/rfr/opt/anaconda3/envs/rasa/lib/python3.7/site-packages/sanic/app.py", line 942, in handle_request
+    response = await response
+  File "/Users/rfr/rasa/rasa/core/channels/channel.py", line 462, in receive
+    sender_id = await self._extract_sender(request)
+  File "/Users/rfr/rasa/rasa/core/channels/channel.py", line 412, in _extract_sender
+    return req.json.get("sender", None)
+  File "/Users/rfr/opt/anaconda3/envs/rasa/lib/python3.7/site-packages/sanic/request.py", line 163, in json
+    self.load_json()
+  File "/Users/rfr/opt/anaconda3/envs/rasa/lib/python3.7/site-packages/sanic/request.py", line 173, in load_json
+    raise InvalidUsage("Failed when parsing body as json")
+sanic.exceptions.InvalidUsage: Failed when parsing body as json
+2020-02-11 17:33:33,472 [ERROR]  Exception occurred while handling uri: 'http://431276fc.ngrok.io/webhooks/rest/webhook'
+Traceback (most recent call last):
+  File "/Users/rfr/opt/anaconda3/envs/rasa/lib/python3.7/site-packages/sanic/request.py", line 169, in load_json
+    self.parsed_json = loads(self.body)
+ValueError: Expected object or value
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/rfr/opt/anaconda3/envs/rasa/lib/python3.7/site-packages/sanic/app.py", line 942, in handle_request
+    response = await response
+  File "/Users/rfr/rasa/rasa/core/channels/channel.py", line 462, in receive
+    sender_id = await self._extract_sender(request)
+  File "/Users/rfr/rasa/rasa/core/channels/channel.py", line 412, in _extract_sender
+    return req.json.get("sender", None)
+  File "/Users/rfr/opt/anaconda3/envs/rasa/lib/python3.7/site-packages/sanic/request.py", line 163, in json
+    self.load_json()
+  File "/Users/rfr/opt/anaconda3/envs/rasa/lib/python3.7/site-packages/sanic/request.py", line 173, in load_json
+    raise InvalidUsage("Failed when parsing body as json")
+sanic.exceptions.InvalidUsage: Failed when parsing body as json
+2020-02-11 17:34:05,012 [ERROR]  Exception occurred while handling uri: 'http://431276fc.ngrok.io/webhooks/rest/webhook'
+Traceback (most recent call last):
+  File "/Users/rfr/opt/anaconda3/envs/rasa/lib/python3.7/site-packages/sanic/request.py", line 169, in load_json
+    self.parsed_json = loads(self.body)
+ValueError: Expected object or value
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/rfr/opt/anaconda3/envs/rasa/lib/python3.7/site-packages/sanic/app.py", line 942, in handle_request
+    response = await response
+  File "/Users/rfr/rasa/rasa/core/channels/channel.py", line 462, in receive
+    sender_id = await self._extract_sender(request)
+  File "/Users/rfr/rasa/rasa/core/channels/channel.py", line 412, in _extract_sender
+    return req.json.get("sender", None)
+  File "/Users/rfr/opt/anaconda3/envs/rasa/lib/python3.7/site-packages/sanic/request.py", line 163, in json
+    self.load_json()
+  File "/Users/rfr/opt/anaconda3/envs/rasa/lib/python3.7/site-packages/sanic/request.py", line 173, in load_json
+    raise InvalidUsage("Failed when parsing body as json")
+sanic.exceptions.InvalidUsage: Failed when parsing body as json
+2020-02-11 17:34:35,731 [ERROR]  Exception occurred while handling uri: 'http://431276fc.ngrok.io/webhooks/rest/webhook'
+Traceback (most recent call last):
+  File "/Users/rfr/opt/anaconda3/envs/rasa/lib/python3.7/site-packages/sanic/request.py", line 169, in load_json
+    self.parsed_json = loads(self.body)
+ValueError: Trailing data
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/rfr/opt/anaconda3/envs/rasa/lib/python3.7/site-packages/sanic/app.py", line 942, in handle_request
+    response = await response
+  File "/Users/rfr/rasa/rasa/core/channels/channel.py", line 462, in receive
+    sender_id = await self._extract_sender(request)
+  File "/Users/rfr/rasa/rasa/core/channels/channel.py", line 412, in _extract_sender
+    return req.json.get("sender", None)
+  File "/Users/rfr/opt/anaconda3/envs/rasa/lib/python3.7/site-packages/sanic/request.py", line 163, in json
+    self.load_json()
+  File "/Users/rfr/opt/anaconda3/envs/rasa/lib/python3.7/site-packages/sanic/request.py", line 173, in load_json
+    raise InvalidUsage("Failed when parsing body as json")
+sanic.exceptions.InvalidUsage: Failed when parsing body as json
+2020-02-11 17:35:54,375 [ERROR]  Exception occurred while handling uri: 'http://431276fc.ngrok.io/webhooks/rest/webhook'
+Traceback (most recent call last):
+  File "/Users/rfr/opt/anaconda3/envs/rasa/lib/python3.7/site-packages/sanic/request.py", line 169, in load_json
+    self.parsed_json = loads(self.body)
+ValueError: Trailing data
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/rfr/opt/anaconda3/envs/rasa/lib/python3.7/site-packages/sanic/app.py", line 942, in handle_request
+    response = await response
+  File "/Users/rfr/rasa/rasa/core/channels/channel.py", line 462, in receive
+    sender_id = await self._extract_sender(request)
+  File "/Users/rfr/rasa/rasa/core/channels/channel.py", line 412, in _extract_sender
+    return req.json.get("sender", None)
+  File "/Users/rfr/opt/anaconda3/envs/rasa/lib/python3.7/site-packages/sanic/request.py", line 163, in json
+    self.load_json()
+  File "/Users/rfr/opt/anaconda3/envs/rasa/lib/python3.7/site-packages/sanic/request.py", line 173, in load_json
+    raise InvalidUsage("Failed when parsing body as json")
+sanic.exceptions.InvalidUsage: Failed when parsing body as json
+2020-02-11 17:37:50,500 [ERROR]  Exception occurred while handling uri: 'http://431276fc.ngrok.io/webhooks/rest/webhook'
+Traceback (most recent call last):
+  File "/Users/rfr/opt/anaconda3/envs/rasa/lib/python3.7/site-packages/sanic/request.py", line 169, in load_json
+    self.parsed_json = loads(self.body)
+ValueError: Trailing data
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/rfr/opt/anaconda3/envs/rasa/lib/python3.7/site-packages/sanic/app.py", line 942, in handle_request
+    response = await response
+  File "/Users/rfr/rasa/rasa/core/channels/channel.py", line 462, in receive
+    sender_id = await self._extract_sender(request)
+  File "/Users/rfr/rasa/rasa/core/channels/channel.py", line 412, in _extract_sender
+    return req.json.get("sender", None)
+  File "/Users/rfr/opt/anaconda3/envs/rasa/lib/python3.7/site-packages/sanic/request.py", line 163, in json
+    self.load_json()
+  File "/Users/rfr/opt/anaconda3/envs/rasa/lib/python3.7/site-packages/sanic/request.py", line 173, in load_json
+    raise InvalidUsage("Failed when parsing body as json")
+sanic.exceptions.InvalidUsage: Failed when parsing body as json
+2020-02-11 17:38:12,516 [ERROR]  Exception occurred while handling uri: 'http://431276fc.ngrok.io/webhooks/rest/webhook'
+Traceback (most recent call last):
+  File "/Users/rfr/opt/anaconda3/envs/rasa/lib/python3.7/site-packages/sanic/request.py", line 169, in load_json
+    self.parsed_json = loads(self.body)
+ValueError: Trailing data
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/rfr/opt/anaconda3/envs/rasa/lib/python3.7/site-packages/sanic/app.py", line 942, in handle_request
+    response = await response
+  File "/Users/rfr/rasa/rasa/core/channels/channel.py", line 462, in receive
+    sender_id = await self._extract_sender(request)
+  File "/Users/rfr/rasa/rasa/core/channels/channel.py", line 412, in _extract_sender
+    return req.json.get("sender", None)
+  File "/Users/rfr/opt/anaconda3/envs/rasa/lib/python3.7/site-packages/sanic/request.py", line 163, in json
+    self.load_json()
+  File "/Users/rfr/opt/anaconda3/envs/rasa/lib/python3.7/site-packages/sanic/request.py", line 173, in load_json
+    raise InvalidUsage("Failed when parsing body as json")
+sanic.exceptions.InvalidUsage: Failed when parsing body as json
+2020-02-11 17:38:35,146 [ERROR]  Exception occurred while handling uri: 'http://431276fc.ngrok.io/webhooks/rest/webhook'
+Traceback (most recent call last):
+  File "/Users/rfr/opt/anaconda3/envs/rasa/lib/python3.7/site-packages/sanic/request.py", line 169, in load_json
+    self.parsed_json = loads(self.body)
+ValueError: Trailing data
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/rfr/opt/anaconda3/envs/rasa/lib/python3.7/site-packages/sanic/app.py", line 942, in handle_request
+    response = await response
+  File "/Users/rfr/rasa/rasa/core/channels/channel.py", line 462, in receive
+    sender_id = await self._extract_sender(request)
+  File "/Users/rfr/rasa/rasa/core/channels/channel.py", line 412, in _extract_sender
+    return req.json.get("sender", None)
+  File "/Users/rfr/opt/anaconda3/envs/rasa/lib/python3.7/site-packages/sanic/request.py", line 163, in json
+    self.load_json()
+  File "/Users/rfr/opt/anaconda3/envs/rasa/lib/python3.7/site-packages/sanic/request.py", line 173, in load_json
+    raise InvalidUsage("Failed when parsing body as json")
+sanic.exceptions.InvalidUsage: Failed when parsing body as json
+2020-02-11 17:40:10,379 [ERROR]  Exception occurred while handling uri: 'http://431276fc.ngrok.io/webhooks/rest/webhook'
+Traceback (most recent call last):
+  File "/Users/rfr/opt/anaconda3/envs/rasa/lib/python3.7/site-packages/sanic/request.py", line 169, in load_json
+    self.parsed_json = loads(self.body)
+ValueError: Trailing data
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/rfr/opt/anaconda3/envs/rasa/lib/python3.7/site-packages/sanic/app.py", line 942, in handle_request
+    response = await response
+  File "/Users/rfr/rasa/rasa/core/channels/channel.py", line 462, in receive
+    sender_id = await self._extract_sender(request)
+  File "/Users/rfr/rasa/rasa/core/channels/channel.py", line 412, in _extract_sender
+    return req.json.get("sender", None)
+  File "/Users/rfr/opt/anaconda3/envs/rasa/lib/python3.7/site-packages/sanic/request.py", line 163, in json
+    self.load_json()
+  File "/Users/rfr/opt/anaconda3/envs/rasa/lib/python3.7/site-packages/sanic/request.py", line 173, in load_json
+    raise InvalidUsage("Failed when parsing body as json")
+sanic.exceptions.InvalidUsage: Failed when parsing body as json
+2020-02-11 17:40:47,865 [ERROR]  Exception occurred while handling uri: 'http://431276fc.ngrok.io/webhooks/rest/webhook'
+Traceback (most recent call last):
+  File "/Users/rfr/opt/anaconda3/envs/rasa/lib/python3.7/site-packages/sanic/request.py", line 169, in load_json
+    self.parsed_json = loads(self.body)
+ValueError: Trailing data
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/rfr/opt/anaconda3/envs/rasa/lib/python3.7/site-packages/sanic/app.py", line 942, in handle_request
+    response = await response
+  File "/Users/rfr/rasa/rasa/core/channels/channel.py", line 462, in receive
+    sender_id = await self._extract_sender(request)
+  File "/Users/rfr/rasa/rasa/core/channels/channel.py", line 412, in _extract_sender
+    return req.json.get("sender", None)
+  File "/Users/rfr/opt/anaconda3/envs/rasa/lib/python3.7/site-packages/sanic/request.py", line 163, in json
+    self.load_json()
+  File "/Users/rfr/opt/anaconda3/envs/rasa/lib/python3.7/site-packages/sanic/request.py", line 173, in load_json
+    raise InvalidUsage("Failed when parsing body as json")
+sanic.exceptions.InvalidUsage: Failed when parsing body as json
+2020-02-11 17:41:18,590 [ERROR]  Exception occurred while handling uri: 'http://431276fc.ngrok.io/webhooks/rest/webhook'
+Traceback (most recent call last):
+  File "/Users/rfr/opt/anaconda3/envs/rasa/lib/python3.7/site-packages/sanic/request.py", line 169, in load_json
+    self.parsed_json = loads(self.body)
+ValueError: Trailing data
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/rfr/opt/anaconda3/envs/rasa/lib/python3.7/site-packages/sanic/app.py", line 942, in handle_request
+    response = await response
+  File "/Users/rfr/rasa/rasa/core/channels/channel.py", line 462, in receive
+    sender_id = await self._extract_sender(request)
+  File "/Users/rfr/rasa/rasa/core/channels/channel.py", line 412, in _extract_sender
+    return req.json.get("sender", None)
+  File "/Users/rfr/opt/anaconda3/envs/rasa/lib/python3.7/site-packages/sanic/request.py", line 163, in json
+    self.load_json()
+  File "/Users/rfr/opt/anaconda3/envs/rasa/lib/python3.7/site-packages/sanic/request.py", line 173, in load_json
+    raise InvalidUsage("Failed when parsing body as json")
+sanic.exceptions.InvalidUsage: Failed when parsing body as json
+2020-02-11 17:43:00,777 [ERROR]  Exception occurred while handling uri: 'http://431276fc.ngrok.io/webhooks/rest/webhook'
+Traceback (most recent call last):
+  File "/Users/rfr/opt/anaconda3/envs/rasa/lib/python3.7/site-packages/sanic/request.py", line 169, in load_json
+    self.parsed_json = loads(self.body)
+ValueError: Trailing data
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/rfr/opt/anaconda3/envs/rasa/lib/python3.7/site-packages/sanic/app.py", line 942, in handle_request
+    response = await response
+  File "/Users/rfr/rasa/rasa/core/channels/channel.py", line 462, in receive
+    sender_id = await self._extract_sender(request)
+  File "/Users/rfr/rasa/rasa/core/channels/channel.py", line 412, in _extract_sender
+    return req.json.get("sender", None)
+  File "/Users/rfr/opt/anaconda3/envs/rasa/lib/python3.7/site-packages/sanic/request.py", line 163, in json
+    self.load_json()
+  File "/Users/rfr/opt/anaconda3/envs/rasa/lib/python3.7/site-packages/sanic/request.py", line 173, in load_json
+    raise InvalidUsage("Failed when parsing body as json")
+sanic.exceptions.InvalidUsage: Failed when parsing body as json
+2020-02-11 17:44:30,687 [ERROR]  Exception occurred while handling uri: 'http://431276fc.ngrok.io/webhooks/rest/webhook'
+Traceback (most recent call last):
+  File "/Users/rfr/opt/anaconda3/envs/rasa/lib/python3.7/site-packages/sanic/request.py", line 169, in load_json
+    self.parsed_json = loads(self.body)
+ValueError: Trailing data
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/rfr/opt/anaconda3/envs/rasa/lib/python3.7/site-packages/sanic/app.py", line 942, in handle_request
+    response = await response
+  File "/Users/rfr/rasa/rasa/core/channels/channel.py", line 462, in receive
+    sender_id = await self._extract_sender(request)
+  File "/Users/rfr/rasa/rasa/core/channels/channel.py", line 412, in _extract_sender
+    return req.json.get("sender", None)
+  File "/Users/rfr/opt/anaconda3/envs/rasa/lib/python3.7/site-packages/sanic/request.py", line 163, in json
+    self.load_json()
+  File "/Users/rfr/opt/anaconda3/envs/rasa/lib/python3.7/site-packages/sanic/request.py", line 173, in load_json
+    raise InvalidUsage("Failed when parsing body as json")
+sanic.exceptions.InvalidUsage: Failed when parsing body as json
+2020-02-11 17:45:33,145 [ERROR]  Exception occurred while handling uri: 'http://431276fc.ngrok.io/webhooks/rest/webhook'
+Traceback (most recent call last):
+  File "/Users/rfr/opt/anaconda3/envs/rasa/lib/python3.7/site-packages/sanic/request.py", line 169, in load_json
+    self.parsed_json = loads(self.body)
+ValueError: Trailing data
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/rfr/opt/anaconda3/envs/rasa/lib/python3.7/site-packages/sanic/app.py", line 942, in handle_request
+    response = await response
+  File "/Users/rfr/rasa/rasa/core/channels/channel.py", line 462, in receive
+    sender_id = await self._extract_sender(request)
+  File "/Users/rfr/rasa/rasa/core/channels/channel.py", line 412, in _extract_sender
+    return req.json.get("sender", None)
+  File "/Users/rfr/opt/anaconda3/envs/rasa/lib/python3.7/site-packages/sanic/request.py", line 163, in json
+    self.load_json()
+  File "/Users/rfr/opt/anaconda3/envs/rasa/lib/python3.7/site-packages/sanic/request.py", line 173, in load_json
+    raise InvalidUsage("Failed when parsing body as json")
+sanic.exceptions.InvalidUsage: Failed when parsing body as json
+2020-02-11 17:48:54,260 [ERROR]  Exception occurred while handling uri: 'http://431276fc.ngrok.io/webhooks/rest/webhook'
+Traceback (most recent call last):
+  File "/Users/rfr/opt/anaconda3/envs/rasa/lib/python3.7/site-packages/sanic/app.py", line 942, in handle_request
+    response = await response
+  File "/Users/rfr/rasa/rasa/core/channels/channel.py", line 462, in receive
+    sender_id = await self._extract_sender(request)
+  File "/Users/rfr/rasa/rasa/core/channels/channel.py", line 412, in _extract_sender
+    return req.json.get("sender", None)
+AttributeError: 'NoneType' object has no attribute 'get'
+2020-02-11 17:49:37,883 [ERROR]  Exception occurred while handling uri: 'http://431276fc.ngrok.io/webhooks/rest/webhook'
+Traceback (most recent call last):
+  File "/Users/rfr/opt/anaconda3/envs/rasa/lib/python3.7/site-packages/sanic/app.py", line 942, in handle_request
+    response = await response
+  File "/Users/rfr/rasa/rasa/core/channels/channel.py", line 462, in receive
+    sender_id = await self._extract_sender(request)
+  File "/Users/rfr/rasa/rasa/core/channels/channel.py", line 412, in _extract_sender
+    return req.json.get("sender", None)
+AttributeError: 'NoneType' object has no attribute 'get'
+2020-02-11 17:53:28,693 [ERROR]  Exception occurred while handling uri: 'http://431276fc.ngrok.io/webhooks/rest/webhook'
+Traceback (most recent call last):
+  File "/Users/rfr/opt/anaconda3/envs/rasa/lib/python3.7/site-packages/sanic/app.py", line 942, in handle_request
+    response = await response
+  File "/Users/rfr/rasa/rasa/core/channels/channel.py", line 462, in receive
+    sender_id = await self._extract_sender(request)
+  File "/Users/rfr/rasa/rasa/core/channels/channel.py", line 412, in _extract_sender
+    return req.json.get("sender", None)
+AttributeError: 'NoneType' object has no attribute 'get'
+2020-02-11 17:54:00,850 [ERROR]  Exception occurred while handling uri: 'http://431276fc.ngrok.io/webhooks/rest/webhook'
+Traceback (most recent call last):
+  File "/Users/rfr/opt/anaconda3/envs/rasa/lib/python3.7/site-packages/sanic/app.py", line 942, in handle_request
+    response = await response
+  File "/Users/rfr/rasa/rasa/core/channels/channel.py", line 462, in receive
+    sender_id = await self._extract_sender(request)
+  File "/Users/rfr/rasa/rasa/core/channels/channel.py", line 412, in _extract_sender
+    return req.json.get("sender", None)
+AttributeError: 'NoneType' object has no attribute 'get'
+2020-02-11 17:54:50,054 [ERROR]  Exception occurred while handling uri: 'http://431276fc.ngrok.io/webhooks/rest/webhook'
+Traceback (most recent call last):
+  File "/Users/rfr/opt/anaconda3/envs/rasa/lib/python3.7/site-packages/sanic/app.py", line 942, in handle_request
+    response = await response
+  File "/Users/rfr/rasa/rasa/core/channels/channel.py", line 462, in receive
+    sender_id = await self._extract_sender(request)
+  File "/Users/rfr/rasa/rasa/core/channels/channel.py", line 412, in _extract_sender
+    return req.json.get("sender", None)
+AttributeError: 'NoneType' object has no attribute 'get'
+2020-02-11 17:55:24,407 [ERROR]  Exception occurred while handling uri: 'http://431276fc.ngrok.io/webhooks/rest/webhook'
+Traceback (most recent call last):
+  File "/Users/rfr/opt/anaconda3/envs/rasa/lib/python3.7/site-packages/sanic/app.py", line 942, in handle_request
+    response = await response
+  File "/Users/rfr/rasa/rasa/core/channels/channel.py", line 462, in receive
+    sender_id = await self._extract_sender(request)
+  File "/Users/rfr/rasa/rasa/core/channels/channel.py", line 412, in _extract_sender
+    return req.json.get("sender", None)
+AttributeError: 'NoneType' object has no attribute 'get'
+2020-02-11 17:55:58,403 [ERROR]  Exception occurred while handling uri: 'http://431276fc.ngrok.io/webhooks/rest/webhook'
+Traceback (most recent call last):
+  File "/Users/rfr/opt/anaconda3/envs/rasa/lib/python3.7/site-packages/sanic/app.py", line 942, in handle_request
+    response = await response
+  File "/Users/rfr/rasa/rasa/core/channels/channel.py", line 462, in receive
+    sender_id = await self._extract_sender(request)
+  File "/Users/rfr/rasa/rasa/core/channels/channel.py", line 412, in _extract_sender
+    return req.json.get("sender", None)
+AttributeError: 'NoneType' object has no attribute 'get'
+2020-02-11 17:56:32,402 [ERROR]  Exception occurred while handling uri: 'http://431276fc.ngrok.io/webhooks/rest/webhook'
+Traceback (most recent call last):
+  File "/Users/rfr/opt/anaconda3/envs/rasa/lib/python3.7/site-packages/sanic/app.py", line 942, in handle_request
+    response = await response
+  File "/Users/rfr/rasa/rasa/core/channels/channel.py", line 462, in receive
+    sender_id = await self._extract_sender(request)
+  File "/Users/rfr/rasa/rasa/core/channels/channel.py", line 412, in _extract_sender
+    return req.json.get("sender", None)
+AttributeError: 'NoneType' object has no attribute 'get'
+2020-02-11 17:57:09,675 [ERROR]  Exception occurred while handling uri: 'http://431276fc.ngrok.io/webhooks/rest/webhook'
+Traceback (most recent call last):
+  File "/Users/rfr/opt/anaconda3/envs/rasa/lib/python3.7/site-packages/sanic/app.py", line 942, in handle_request
+    response = await response
+  File "/Users/rfr/rasa/rasa/core/channels/channel.py", line 462, in receive
+    sender_id = await self._extract_sender(request)
+  File "/Users/rfr/rasa/rasa/core/channels/channel.py", line 412, in _extract_sender
+    return req.json.get("sender", None)
+AttributeError: 'NoneType' object has no attribute 'get'
+2020-02-11 17:59:21,757 [INFO ]  Starting Rasa server on http://localhost:5005
+2020-02-11 17:59:41,597 [INFO ]  Using /var/folders/97/yh4slbb17hncvzbj6vrkmqfw0000gn/T/tfhub_modules to cache modules.
+2020-02-11 18:02:47,770 [ERROR]  Exception occurred while handling uri: 'http://6161773b.ngrok.io/webhooks/rest/webhook'
+Traceback (most recent call last):
+  File "/Users/rfr/opt/anaconda3/envs/rasa/lib/python3.7/site-packages/sanic/app.py", line 942, in handle_request
+    response = await response
+  File "/Users/rfr/rasa/rasa/core/channels/channel.py", line 462, in receive
+    sender_id = await self._extract_sender(request)
+  File "/Users/rfr/rasa/rasa/core/channels/channel.py", line 412, in _extract_sender
+    return req.json.get("sender", None)
+AttributeError: 'NoneType' object has no attribute 'get'
+2020-02-11 18:03:31,731 [ERROR]  Exception occurred while handling uri: 'http://6161773b.ngrok.io/webhooks/rest/webhook'
+Traceback (most recent call last):
+  File "/Users/rfr/opt/anaconda3/envs/rasa/lib/python3.7/site-packages/sanic/app.py", line 942, in handle_request
+    response = await response
+  File "/Users/rfr/rasa/rasa/core/channels/channel.py", line 462, in receive
+    sender_id = await self._extract_sender(request)
+  File "/Users/rfr/rasa/rasa/core/channels/channel.py", line 412, in _extract_sender
+    return req.json.get("sender", None)
+AttributeError: 'NoneType' object has no attribute 'get'
+2020-02-11 18:06:56,123 [ERROR]  Exception occurred while handling uri: 'http://6161773b.ngrok.io/webhooks/rest/webhook'
+Traceback (most recent call last):
+  File "/Users/rfr/opt/anaconda3/envs/rasa/lib/python3.7/site-packages/sanic/app.py", line 942, in handle_request
+    response = await response
+  File "/Users/rfr/rasa/rasa/core/channels/channel.py", line 462, in receive
+    sender_id = await self._extract_sender(request)
+  File "/Users/rfr/rasa/rasa/core/channels/channel.py", line 412, in _extract_sender
+    return req.json.get("sender", None)
+AttributeError: 'NoneType' object has no attribute 'get'
+2020-02-11 18:08:11,594 [ERROR]  Exception occurred while handling uri: 'http://6161773b.ngrok.io/webhooks/rest/webhook'
+Traceback (most recent call last):
+  File "/Users/rfr/opt/anaconda3/envs/rasa/lib/python3.7/site-packages/sanic/app.py", line 942, in handle_request
+    response = await response
+  File "/Users/rfr/rasa/rasa/core/channels/channel.py", line 462, in receive
+    sender_id = await self._extract_sender(request)
+  File "/Users/rfr/rasa/rasa/core/channels/channel.py", line 412, in _extract_sender
+    return req.json.get("sender", None)
+AttributeError: 'NoneType' object has no attribute 'get'
+2020-02-11 18:10:35,983 [ERROR]  Exception occurred while handling uri: 'http://6161773b.ngrok.io/webhooks/rest/webhook'
+Traceback (most recent call last):
+  File "/Users/rfr/opt/anaconda3/envs/rasa/lib/python3.7/site-packages/sanic/app.py", line 942, in handle_request
+    response = await response
+  File "/Users/rfr/rasa/rasa/core/channels/channel.py", line 462, in receive
+    sender_id = await self._extract_sender(request)
+  File "/Users/rfr/rasa/rasa/core/channels/channel.py", line 412, in _extract_sender
+    return req.json.get("sender", None)
+AttributeError: 'NoneType' object has no attribute 'get'
+2020-02-11 18:13:08,812 [ERROR]  Exception occurred while handling uri: 'http://6161773b.ngrok.io/webhooks/rest/webhook'
+Traceback (most recent call last):
+  File "/Users/rfr/opt/anaconda3/envs/rasa/lib/python3.7/site-packages/sanic/request.py", line 169, in load_json
+    self.parsed_json = loads(self.body)
+ValueError: Trailing data
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/rfr/opt/anaconda3/envs/rasa/lib/python3.7/site-packages/sanic/app.py", line 942, in handle_request
+    response = await response
+  File "/Users/rfr/rasa/rasa/core/channels/channel.py", line 462, in receive
+    sender_id = await self._extract_sender(request)
+  File "/Users/rfr/rasa/rasa/core/channels/channel.py", line 412, in _extract_sender
+    return req.json.get("sender", None)
+  File "/Users/rfr/opt/anaconda3/envs/rasa/lib/python3.7/site-packages/sanic/request.py", line 163, in json
+    self.load_json()
+  File "/Users/rfr/opt/anaconda3/envs/rasa/lib/python3.7/site-packages/sanic/request.py", line 173, in load_json
+    raise InvalidUsage("Failed when parsing body as json")
+sanic.exceptions.InvalidUsage: Failed when parsing body as json
+2020-02-11 18:13:34,428 [ERROR]  Exception occurred while handling uri: 'http://6161773b.ngrok.io/webhooks/rest/webhook'
+Traceback (most recent call last):
+  File "/Users/rfr/opt/anaconda3/envs/rasa/lib/python3.7/site-packages/sanic/app.py", line 942, in handle_request
+    response = await response
+  File "/Users/rfr/rasa/rasa/core/channels/channel.py", line 462, in receive
+    sender_id = await self._extract_sender(request)
+  File "/Users/rfr/rasa/rasa/core/channels/channel.py", line 412, in _extract_sender
+    return req.json.get("sender", None)
+AttributeError: 'NoneType' object has no attribute 'get'
+2020-02-11 18:16:22,686 [ERROR]  Exception occurred while handling uri: 'http://6161773b.ngrok.io/webhooks/rest/webhook'
+Traceback (most recent call last):
+  File "/Users/rfr/opt/anaconda3/envs/rasa/lib/python3.7/site-packages/sanic/app.py", line 942, in handle_request
+    response = await response
+  File "/Users/rfr/rasa/rasa/core/channels/channel.py", line 462, in receive
+    sender_id = await self._extract_sender(request)
+  File "/Users/rfr/rasa/rasa/core/channels/channel.py", line 412, in _extract_sender
+    return req.json.get("sender", None)
+AttributeError: 'NoneType' object has no attribute 'get'
+2020-02-11 18:19:29,077 [ERROR]  Exception occurred while handling uri: 'http://6161773b.ngrok.io/webhooks/rest/webhook'
+Traceback (most recent call last):
+  File "/Users/rfr/opt/anaconda3/envs/rasa/lib/python3.7/site-packages/sanic/app.py", line 942, in handle_request
+    response = await response
+  File "/Users/rfr/rasa/rasa/core/channels/channel.py", line 462, in receive
+    sender_id = await self._extract_sender(request)
+  File "/Users/rfr/rasa/rasa/core/channels/channel.py", line 412, in _extract_sender
+    return req.json.get("sender", None)
+AttributeError: 'NoneType' object has no attribute 'get'
+2020-02-11 18:22:17,220 [ERROR]  Exception occurred while handling uri: 'http://6161773b.ngrok.io/webhooks/rest/webhook'
+Traceback (most recent call last):
+  File "/Users/rfr/opt/anaconda3/envs/rasa/lib/python3.7/site-packages/sanic/app.py", line 942, in handle_request
+    response = await response
+  File "/Users/rfr/rasa/rasa/core/channels/channel.py", line 462, in receive
+    sender_id = await self._extract_sender(request)
+  File "/Users/rfr/rasa/rasa/core/channels/channel.py", line 412, in _extract_sender
+    return req.json.get("sender", None)
+AttributeError: 'NoneType' object has no attribute 'get'
+2020-02-11 18:23:12,720 [ERROR]  Exception occurred while handling uri: 'http://6161773b.ngrok.io/webhooks/rest/webhook'
+Traceback (most recent call last):
+  File "/Users/rfr/opt/anaconda3/envs/rasa/lib/python3.7/site-packages/sanic/app.py", line 942, in handle_request
+    response = await response
+  File "/Users/rfr/rasa/rasa/core/channels/channel.py", line 462, in receive
+    sender_id = await self._extract_sender(request)
+  File "/Users/rfr/rasa/rasa/core/channels/channel.py", line 412, in _extract_sender
+    return req.json.get("sender", None)
+AttributeError: 'NoneType' object has no attribute 'get'

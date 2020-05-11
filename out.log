@@ -1,0 +1,231 @@
+2020-01-31 15:22:43,463 [INFO ]  Starting Rasa server on http://localhost:5005
+2020-01-31 15:22:52,149 [INFO ]  NumExpr defaulting to 4 threads.
+2020-01-31 15:23:03,016 [INFO ]  Entry Point [tensor2tensor.envs.tic_tac_toe_env:TicTacToeEnv] registered with id [T2TEnv-TicTacToeEnv-v0]
+2020-01-31 15:43:25,691 [ERROR]  Exception occurred while handling uri: 'http://19e8841d.ngrok.io/webhooks/rest/webhook'
+Traceback (most recent call last):
+  File "/Users/rfr/opt/anaconda3/lib/python3.7/site-packages/sanic/app.py", line 942, in handle_request
+    response = await response
+  File "/Users/rfr/opt/anaconda3/lib/python3.7/site-packages/rasa/core/channels/channel.py", line 462, in receive
+    sender_id = await self._extract_sender(request)
+  File "/Users/rfr/opt/anaconda3/lib/python3.7/site-packages/rasa/core/channels/channel.py", line 412, in _extract_sender
+    return req.json.get("sender", None)
+AttributeError: 'NoneType' object has no attribute 'get'
+2020-01-31 15:43:39,724 [ERROR]  Exception occurred while handling uri: 'http://localhost:5005/webhooks/rest/webhook'
+Traceback (most recent call last):
+  File "/Users/rfr/opt/anaconda3/lib/python3.7/site-packages/sanic/app.py", line 942, in handle_request
+    response = await response
+  File "/Users/rfr/opt/anaconda3/lib/python3.7/site-packages/rasa/core/channels/channel.py", line 462, in receive
+    sender_id = await self._extract_sender(request)
+  File "/Users/rfr/opt/anaconda3/lib/python3.7/site-packages/rasa/core/channels/channel.py", line 412, in _extract_sender
+    return req.json.get("sender", None)
+AttributeError: 'NoneType' object has no attribute 'get'
+2020-01-31 15:43:46,531 [ERROR]  Exception occurred while handling uri: 'http://localhost:5005/webhooks/rest/webhook'
+Traceback (most recent call last):
+  File "/Users/rfr/opt/anaconda3/lib/python3.7/site-packages/sanic/app.py", line 942, in handle_request
+    response = await response
+  File "/Users/rfr/opt/anaconda3/lib/python3.7/site-packages/rasa/core/channels/channel.py", line 462, in receive
+    sender_id = await self._extract_sender(request)
+  File "/Users/rfr/opt/anaconda3/lib/python3.7/site-packages/rasa/core/channels/channel.py", line 412, in _extract_sender
+    return req.json.get("sender", None)
+AttributeError: 'NoneType' object has no attribute 'get'
+2020-01-31 15:45:40,962 [ERROR]  Exception occurred while handling uri: 'http://localhost:5005/webhooks/rest/webhook'
+Traceback (most recent call last):
+  File "/Users/rfr/opt/anaconda3/lib/python3.7/site-packages/sanic/app.py", line 942, in handle_request
+    response = await response
+  File "/Users/rfr/opt/anaconda3/lib/python3.7/site-packages/rasa/core/channels/channel.py", line 462, in receive
+    sender_id = await self._extract_sender(request)
+  File "/Users/rfr/opt/anaconda3/lib/python3.7/site-packages/rasa/core/channels/channel.py", line 412, in _extract_sender
+    return req.json.get("sender", None)
+AttributeError: 'NoneType' object has no attribute 'get'
+2020-01-31 15:45:43,520 [ERROR]  Exception occurred while handling uri: 'http://localhost:5005/webhooks/rest/webhook'
+Traceback (most recent call last):
+  File "/Users/rfr/opt/anaconda3/lib/python3.7/site-packages/sanic/app.py", line 918, in handle_request
+    handler, args, kwargs, uri = self.router.get(request)
+  File "/Users/rfr/opt/anaconda3/lib/python3.7/site-packages/sanic/router.py", line 407, in get
+    return self._get(request.path, request.method, "")
+  File "/Users/rfr/opt/anaconda3/lib/python3.7/site-packages/sanic/router.py", line 447, in _get
+    raise method_not_supported
+sanic.exceptions.MethodNotSupported: Method GET not allowed for URL /webhooks/rest/webhook
+2020-01-31 15:45:46,824 [ERROR]  Exception occurred while handling uri: 'http://localhost:5005/webhooks/rest/webhook'
+Traceback (most recent call last):
+  File "/Users/rfr/opt/anaconda3/lib/python3.7/site-packages/sanic/app.py", line 942, in handle_request
+    response = await response
+  File "/Users/rfr/opt/anaconda3/lib/python3.7/site-packages/rasa/core/channels/channel.py", line 462, in receive
+    sender_id = await self._extract_sender(request)
+  File "/Users/rfr/opt/anaconda3/lib/python3.7/site-packages/rasa/core/channels/channel.py", line 412, in _extract_sender
+    return req.json.get("sender", None)
+AttributeError: 'NoneType' object has no attribute 'get'
+2020-01-31 15:46:33,667 [ERROR]  Exception occurred while handling uri: 'http://localhost:5005/webhooks/rest/webhook'
+Traceback (most recent call last):
+  File "/Users/rfr/opt/anaconda3/lib/python3.7/site-packages/sanic/app.py", line 942, in handle_request
+    response = await response
+  File "/Users/rfr/opt/anaconda3/lib/python3.7/site-packages/rasa/core/channels/channel.py", line 462, in receive
+    sender_id = await self._extract_sender(request)
+  File "/Users/rfr/opt/anaconda3/lib/python3.7/site-packages/rasa/core/channels/channel.py", line 412, in _extract_sender
+    return req.json.get("sender", None)
+AttributeError: 'NoneType' object has no attribute 'get'
+2020-01-31 15:46:38,411 [ERROR]  Exception occurred while handling uri: 'http://localhost:5005/webhooks/rest/webhook'
+Traceback (most recent call last):
+  File "/Users/rfr/opt/anaconda3/lib/python3.7/site-packages/sanic/app.py", line 942, in handle_request
+    response = await response
+  File "/Users/rfr/opt/anaconda3/lib/python3.7/site-packages/rasa/core/channels/channel.py", line 462, in receive
+    sender_id = await self._extract_sender(request)
+  File "/Users/rfr/opt/anaconda3/lib/python3.7/site-packages/rasa/core/channels/channel.py", line 412, in _extract_sender
+    return req.json.get("sender", None)
+AttributeError: 'NoneType' object has no attribute 'get'
+2020-01-31 15:47:49,289 [ERROR]  Exception occurred while handling uri: 'http://localhost:5005/webhooks/rest/webhook'
+Traceback (most recent call last):
+  File "/Users/rfr/opt/anaconda3/lib/python3.7/site-packages/sanic/app.py", line 942, in handle_request
+    response = await response
+  File "/Users/rfr/opt/anaconda3/lib/python3.7/site-packages/rasa/core/channels/channel.py", line 462, in receive
+    sender_id = await self._extract_sender(request)
+  File "/Users/rfr/opt/anaconda3/lib/python3.7/site-packages/rasa/core/channels/channel.py", line 412, in _extract_sender
+    return req.json.get("sender", None)
+AttributeError: 'NoneType' object has no attribute 'get'
+2020-02-10 13:34:46,188 [INFO ]  Starting Rasa server on http://localhost:5005
+2020-02-10 13:35:02,928 [INFO ]  Using /var/folders/97/yh4slbb17hncvzbj6vrkmqfw0000gn/T/tfhub_modules to cache modules.
+2020-02-10 13:40:48,917 [ERROR]  Exception occurred while handling uri: 'http://a3e1d697.ngrok.io/parse?q=halo'
+Traceback (most recent call last):
+  File "/Users/rfr/opt/anaconda3/envs/rasa/lib/python3.7/site-packages/sanic/app.py", line 918, in handle_request
+    handler, args, kwargs, uri = self.router.get(request)
+  File "/Users/rfr/opt/anaconda3/envs/rasa/lib/python3.7/site-packages/sanic/router.py", line 407, in get
+    return self._get(request.path, request.method, "")
+  File "/Users/rfr/opt/anaconda3/envs/rasa/lib/python3.7/site-packages/sanic/router.py", line 470, in _get
+    raise NotFound("Requested URL {} not found".format(url))
+sanic.exceptions.NotFound: Requested URL /parse not found
+2020-02-10 13:47:59,647 [ERROR]  Exception occurred while handling uri: 'http://localhost:5005/conversations/easysoftnusdkbot/parse'
+Traceback (most recent call last):
+  File "/Users/rfr/opt/anaconda3/envs/rasa/lib/python3.7/site-packages/sanic/app.py", line 918, in handle_request
+    handler, args, kwargs, uri = self.router.get(request)
+  File "/Users/rfr/opt/anaconda3/envs/rasa/lib/python3.7/site-packages/sanic/router.py", line 407, in get
+    return self._get(request.path, request.method, "")
+  File "/Users/rfr/opt/anaconda3/envs/rasa/lib/python3.7/site-packages/sanic/router.py", line 470, in _get
+    raise NotFound("Requested URL {} not found".format(url))
+sanic.exceptions.NotFound: Requested URL /conversations/easysoftnusdkbot/parse not found
+2020-02-10 13:51:46,923 [ERROR]  Exception occurred while handling uri: 'http://a3e1d697.ngrok.io/model/input'
+Traceback (most recent call last):
+  File "/Users/rfr/opt/anaconda3/envs/rasa/lib/python3.7/site-packages/sanic/app.py", line 918, in handle_request
+    handler, args, kwargs, uri = self.router.get(request)
+  File "/Users/rfr/opt/anaconda3/envs/rasa/lib/python3.7/site-packages/sanic/router.py", line 407, in get
+    return self._get(request.path, request.method, "")
+  File "/Users/rfr/opt/anaconda3/envs/rasa/lib/python3.7/site-packages/sanic/router.py", line 470, in _get
+    raise NotFound("Requested URL {} not found".format(url))
+sanic.exceptions.NotFound: Requested URL /model/input not found
+2020-02-10 13:52:20,304 [ERROR]  Exception occurred while handling uri: 'http://a3e1d697.ngrok.io/conversations/nusdk/parse'
+Traceback (most recent call last):
+  File "/Users/rfr/opt/anaconda3/envs/rasa/lib/python3.7/site-packages/sanic/app.py", line 918, in handle_request
+    handler, args, kwargs, uri = self.router.get(request)
+  File "/Users/rfr/opt/anaconda3/envs/rasa/lib/python3.7/site-packages/sanic/router.py", line 407, in get
+    return self._get(request.path, request.method, "")
+  File "/Users/rfr/opt/anaconda3/envs/rasa/lib/python3.7/site-packages/sanic/router.py", line 470, in _get
+    raise NotFound("Requested URL {} not found".format(url))
+sanic.exceptions.NotFound: Requested URL /conversations/nusdk/parse not found
+2020-02-10 13:52:26,875 [ERROR]  Exception occurred while handling uri: 'http://a3e1d697.ngrok.io/conversations/nusdk/'
+Traceback (most recent call last):
+  File "/Users/rfr/opt/anaconda3/envs/rasa/lib/python3.7/site-packages/sanic/app.py", line 918, in handle_request
+    handler, args, kwargs, uri = self.router.get(request)
+  File "/Users/rfr/opt/anaconda3/envs/rasa/lib/python3.7/site-packages/sanic/router.py", line 407, in get
+    return self._get(request.path, request.method, "")
+  File "/Users/rfr/opt/anaconda3/envs/rasa/lib/python3.7/site-packages/sanic/router.py", line 470, in _get
+    raise NotFound("Requested URL {} not found".format(url))
+sanic.exceptions.NotFound: Requested URL /conversations/nusdk/ not found
+2020-02-10 13:52:47,336 [ERROR]  Exception occurred while handling uri: 'http://a3e1d697.ngrok.io/favicon.ico'
+Traceback (most recent call last):
+  File "/Users/rfr/opt/anaconda3/envs/rasa/lib/python3.7/site-packages/sanic/app.py", line 918, in handle_request
+    handler, args, kwargs, uri = self.router.get(request)
+  File "/Users/rfr/opt/anaconda3/envs/rasa/lib/python3.7/site-packages/sanic/router.py", line 407, in get
+    return self._get(request.path, request.method, "")
+  File "/Users/rfr/opt/anaconda3/envs/rasa/lib/python3.7/site-packages/sanic/router.py", line 470, in _get
+    raise NotFound("Requested URL {} not found".format(url))
+sanic.exceptions.NotFound: Requested URL /favicon.ico not found
+2020-02-10 14:00:31,289 [ERROR]  Exception occurred while handling uri: 'http://a3e1d697.ngrok.io/webhooks/rest/webhook'
+Traceback (most recent call last):
+  File "/Users/rfr/opt/anaconda3/envs/rasa/lib/python3.7/site-packages/sanic/request.py", line 169, in load_json
+    self.parsed_json = loads(self.body)
+ValueError: Unexpected character in found when decoding object value
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/rfr/opt/anaconda3/envs/rasa/lib/python3.7/site-packages/sanic/app.py", line 942, in handle_request
+    response = await response
+  File "/Users/rfr/rasa/rasa/core/channels/channel.py", line 462, in receive
+    sender_id = await self._extract_sender(request)
+  File "/Users/rfr/rasa/rasa/core/channels/channel.py", line 412, in _extract_sender
+    return req.json.get("sender", None)
+  File "/Users/rfr/opt/anaconda3/envs/rasa/lib/python3.7/site-packages/sanic/request.py", line 163, in json
+    self.load_json()
+  File "/Users/rfr/opt/anaconda3/envs/rasa/lib/python3.7/site-packages/sanic/request.py", line 173, in load_json
+    raise InvalidUsage("Failed when parsing body as json")
+sanic.exceptions.InvalidUsage: Failed when parsing body as json
+2020-02-10 14:00:46,011 [ERROR]  An exception occured while handling user message 'None'.
+Traceback (most recent call last):
+  File "/Users/rfr/rasa/rasa/core/channels/channel.py", line 487, in receive
+    metadata=metadata,
+  File "/Users/rfr/rasa/rasa/core/channels/channel.py", line 83, in handler
+    await app.agent.handle_message(*args, **kwargs)
+  File "/Users/rfr/rasa/rasa/core/agent.py", line 485, in handle_message
+    return await processor.handle_message(message)
+  File "/Users/rfr/rasa/rasa/core/processor.py", line 93, in handle_message
+    tracker = await self.log_message(message, should_save_tracker=False)
+  File "/Users/rfr/rasa/rasa/core/processor.py", line 222, in log_message
+    await self._handle_message_with_tracker(message, tracker)
+  File "/Users/rfr/rasa/rasa/core/processor.py", line 454, in _handle_message_with_tracker
+    parse_data = await self._parse_message(message, tracker)
+  File "/Users/rfr/rasa/rasa/core/processor.py", line 427, in _parse_message
+    if message.text.startswith(INTENT_MESSAGE_PREFIX):
+AttributeError: 'NoneType' object has no attribute 'startswith'
+2020-02-10 14:00:54,765 [ERROR]  An exception occured while handling user message 'None'.
+Traceback (most recent call last):
+  File "/Users/rfr/rasa/rasa/core/channels/channel.py", line 487, in receive
+    metadata=metadata,
+  File "/Users/rfr/rasa/rasa/core/channels/channel.py", line 83, in handler
+    await app.agent.handle_message(*args, **kwargs)
+  File "/Users/rfr/rasa/rasa/core/agent.py", line 485, in handle_message
+    return await processor.handle_message(message)
+  File "/Users/rfr/rasa/rasa/core/processor.py", line 93, in handle_message
+    tracker = await self.log_message(message, should_save_tracker=False)
+  File "/Users/rfr/rasa/rasa/core/processor.py", line 222, in log_message
+    await self._handle_message_with_tracker(message, tracker)
+  File "/Users/rfr/rasa/rasa/core/processor.py", line 454, in _handle_message_with_tracker
+    parse_data = await self._parse_message(message, tracker)
+  File "/Users/rfr/rasa/rasa/core/processor.py", line 427, in _parse_message
+    if message.text.startswith(INTENT_MESSAGE_PREFIX):
+AttributeError: 'NoneType' object has no attribute 'startswith'
+2020-02-10 14:01:07,667 [ERROR]  Exception occurred while handling uri: 'http://a3e1d697.ngrok.io/webhooks/rest/webhook'
+Traceback (most recent call last):
+  File "/Users/rfr/opt/anaconda3/envs/rasa/lib/python3.7/site-packages/sanic/request.py", line 169, in load_json
+    self.parsed_json = loads(self.body)
+ValueError: Expected object or value
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/rfr/opt/anaconda3/envs/rasa/lib/python3.7/site-packages/sanic/app.py", line 942, in handle_request
+    response = await response
+  File "/Users/rfr/rasa/rasa/core/channels/channel.py", line 462, in receive
+    sender_id = await self._extract_sender(request)
+  File "/Users/rfr/rasa/rasa/core/channels/channel.py", line 412, in _extract_sender
+    return req.json.get("sender", None)
+  File "/Users/rfr/opt/anaconda3/envs/rasa/lib/python3.7/site-packages/sanic/request.py", line 163, in json
+    self.load_json()
+  File "/Users/rfr/opt/anaconda3/envs/rasa/lib/python3.7/site-packages/sanic/request.py", line 173, in load_json
+    raise InvalidUsage("Failed when parsing body as json")
+sanic.exceptions.InvalidUsage: Failed when parsing body as json
+2020-02-10 14:01:19,955 [ERROR]  An exception occured while handling user message 'None'.
+Traceback (most recent call last):
+  File "/Users/rfr/rasa/rasa/core/channels/channel.py", line 487, in receive
+    metadata=metadata,
+  File "/Users/rfr/rasa/rasa/core/channels/channel.py", line 83, in handler
+    await app.agent.handle_message(*args, **kwargs)
+  File "/Users/rfr/rasa/rasa/core/agent.py", line 485, in handle_message
+    return await processor.handle_message(message)
+  File "/Users/rfr/rasa/rasa/core/processor.py", line 93, in handle_message
+    tracker = await self.log_message(message, should_save_tracker=False)
+  File "/Users/rfr/rasa/rasa/core/processor.py", line 222, in log_message
+    await self._handle_message_with_tracker(message, tracker)
+  File "/Users/rfr/rasa/rasa/core/processor.py", line 454, in _handle_message_with_tracker
+    parse_data = await self._parse_message(message, tracker)
+  File "/Users/rfr/rasa/rasa/core/processor.py", line 427, in _parse_message
+    if message.text.startswith(INTENT_MESSAGE_PREFIX):
+AttributeError: 'NoneType' object has no attribute 'startswith'
