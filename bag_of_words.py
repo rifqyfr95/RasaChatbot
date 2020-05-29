@@ -8,9 +8,11 @@ import urllib.request
 import re
 import heapq
 
+from IPython.display import display, HTML
 import pandas as pd
+from nltk.corpus import stopwords
 
-
+nltk.download('stopwords')
 datas = pd.read_csv('datacrawler.csv')
 s = datas['Feature'].unique()
 list_text_per_feature = []
@@ -22,9 +24,7 @@ ss_text = ""
 cb_text = ""
 ls_text = ""
 
-# print(datas['Feature'][3])
-#
-# print(datas['Desc'][5])
+
 for a,b,c,d in zip(datas['Feature'],datas['Desc'],datas['Sub Features'],datas['Sub Desc']):
     if a == s[0]:
         um_text = um_text + " " + a + " " + b + " " + c +  " " + d
@@ -56,11 +56,15 @@ list_text_per_feature.append(cb_text)
 list_corpus = []
 for a in list_text_per_feature:
     corpus = nltk.sent_tokenize(a)
+    print(corpus)
     for i in range(len(corpus)):
         corpus[i] = corpus[i].lower()
         corpus[i] = re.sub(r'\W', ' ', corpus[i])
         corpus[i] = re.sub(r'\s+', ' ', corpus[i])
     list_corpus.append(corpus)
+    print(corpus)
+print(list_corpus)
+print("\n")
 
 wordfreq = {}
 for corpus in list_corpus:
@@ -69,17 +73,22 @@ for corpus in list_corpus:
         for token in tokens:
             if token not in wordfreq.keys():
                 wordfreq[token] = 1
+                print(token)
             else:
                 wordfreq[token] += 1
-# print(wordfreq)
+print(wordfreq)
+print("\n")
 
 
 most_freq = heapq.nlargest(200, wordfreq, key=wordfreq.get)
-# print(most_freq)
+print(most_freq)
+print("\n")
 
 sentence_vectors = []
+list_sentence_vectors = []
 
 for corpus in list_corpus:
+    sentence_vectors = []
     for sentence in corpus:
         sentence_tokens = nltk.word_tokenize(sentence)
         sent_vec = []
@@ -89,8 +98,12 @@ for corpus in list_corpus:
             else:
                 sent_vec.append(0)
         sentence_vectors.append(sent_vec)
+    list_sentence_vectors.append(sentence_vectors)
 
 sentence_vectors = np.asarray(sentence_vectors)
-
-
-print(sentence_vectors)
+#
+#
+# print(sentence_vectors)
+# with open("output.txt", "w") as txt_file:
+#     for line in sentence_vectors:
+#         txt_file.write(" ".join(str(line)) + "\n")
