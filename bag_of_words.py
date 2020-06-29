@@ -100,7 +100,8 @@ for corpus in list_corpus:
         sentence_vectors.append(sent_vec)
     list_sentence_vectors.append(sentence_vectors)
 
-sentence_vectors = np.asarray(sentence_vectors)
+sentence_vectors = np.asarray(list_sentence_vectors)
+print(sentence_vectors)
 #
 #
 # print(sentence_vectors)
